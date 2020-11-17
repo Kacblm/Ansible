@@ -1,0 +1,15 @@
+- name: installing soft
+  apt: pkg=$item
+  with_items:
+    - zsh
+    - htop
+    - sudo
+    - iftop
+    - tcpdump
+    - mc
+    - wget
+    - vim
+    - tmux
+    - curl
+    - tree
+    - bash_complition
